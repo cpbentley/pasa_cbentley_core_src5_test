@@ -11,7 +11,7 @@ public class TestTextUtils extends BentleyTestCase {
 
    private C5Ctx c5;
 
-   public void setUpMord() {
+   public void setupAbstract() {
       c5 = new C5Ctx(uc);
    }
 
