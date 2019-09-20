@@ -3,17 +3,10 @@ package pasa.cbentley.core.src5.utils.tests;
 import java.util.Arrays;
 import java.util.HashSet;
 
-import pasa.cbentley.core.src5.ctx.C5Ctx;
+import pasa.cbentley.core.src5.tests.TestCoreSrc5Abstract;
 import pasa.cbentley.core.src5.utils.TextUtils;
-import pasa.cbentley.testing.BentleyTestCase;
 
-public class TestTextUtils extends BentleyTestCase {
-
-   private C5Ctx c5;
-
-   public void setupAbstract() {
-      c5 = new C5Ctx(uc);
-   }
+public class TestTextUtils extends TestCoreSrc5Abstract {
 
    public void testAddSpacesBasic() throws Exception {
       TextUtils tu = c5.getTextUtils();
