@@ -4,6 +4,7 @@
  */
 package pasa.cbentley.core.src5.utils.tests;
 
+import java.text.Normalizer;
 import java.util.Arrays;
 import java.util.HashSet;
 
@@ -19,6 +20,7 @@ public class TestTextUtils extends TestCoreSrc5Abstract {
       assertEquals("bonjour le monde", tu.addSpaces("bonjourlemonde", dic));
    }
 
+   
    public void testAddSpacesEdgeCases() throws Exception {
       TextUtils tu = c5.getTextUtils();
 
